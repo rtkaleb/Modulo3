@@ -50,3 +50,28 @@ button:hover{
     background-color: #14151d;
     transform: scale(1.05);
 }
+
+.comentario{
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: left;
+    color: black;
+
+    font-size: 14px;
+}
+
+.comentario p{
+    font-size: 8px;
+    line-height: 0.5px;
+    color: #4a4e69;
+    margin-bottom: -10px;
+}
+
+.user-image{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
