@@ -1,5 +1,5 @@
-//Agregar un archivo o varios a tu repositorio y que contenga(n) la solución al problema planteado a continuación.
-//Crear una caja de comentarios donde los usuarios puedan escribir y agregar comentarios que se muestran en la página. Este proyecto ayudará a los estudiantes a manejar eventos de formularios y modificar el contenido de una página.
+//Crear una caja de comentarios donde los usuarios puedan escribir y agregar comentarios que se muestran en la página. 
+// Este proyecto ayudará a los estudiantes a manejar eventos de formularios y modificar el contenido de una página.
 
 //Instrucciones:
 //Crea un formulario con un input para el nombre y un textarea para el comentario.  
@@ -11,6 +11,20 @@
 
 
 //Solución:
+
+let Título = document.getElementById("Título"); 
+Título.innerText = "Esta página es para comentarios";
+
+<section class="comment-container">
+        <h2>Comentarios</h2>
+        <p id="user-info"></p>
+        <textarea placeholder="Publica un comentario" id="comment"></textarea>
+        <button onclick="postComment()">Publicar</button>
+
+        <section id="comment-section"></section>
+    </section>
+
+/*
 let formulario = document.getElementById("formulario");
 let comentarios = document.getElementById("comentarios");
 
